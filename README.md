@@ -1,6 +1,6 @@
 # Alteryx Move Item Macro
 
-This repository provides a macro for [Alteryx Designer Desktop[(https://www.alteryx.com/products/alteryx-designer) to enable users to easily move files from one location to another by leveraging PowerShell's Move-Item function.
+This repository provides a macro for [Alteryx Designer Desktop](https://www.alteryx.com/products/alteryx-designer) to enable users to easily move files from one location to another by leveraging PowerShell's Move-Item function.
 
 ## Pre-requisites
 
