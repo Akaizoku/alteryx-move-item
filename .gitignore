@@ -1,0 +1,8 @@
+# Backup files
+*.bak
+
+# Sample log file
+log.csv
+
+# Test output directory
+Output/
