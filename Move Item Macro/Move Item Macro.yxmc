@@ -704,7 +704,7 @@ $Destination = "' + [T...</DefaultAnnotationText>
       <RootToolName>Move Item Macro</RootToolName>
       <ToolVersion>1.0</ToolVersion>
       <ToolInDb value="False" />
-      <CategoryName>Developper</CategoryName>
+      <CategoryName>Developer</CategoryName>
       <SearchTags>move, file, item, powershell, run command, cmd, macro</SearchTags>
       <Author>Florian Carrier</Author>
       <Company>Alteryx</Company>
