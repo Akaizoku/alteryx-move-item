@@ -123,11 +123,11 @@
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1146" y="270" />
+            <Position x="1146" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Alteryx\Designer\Engine\Tmp\Engine_5836_0b3bc0f8642f46cb8d4322c40cfe097b_\Engine_5836_6ca0e90b51804092adad847bf81998e7~.yxdb</TempFile>
+              <TempFile>C:\Alteryx\Designer\Engine\Tmp\Engine_22312_08705055c5454ff8a69bc3833cf649db_\Engine_22312_7ede7081098e45f58698b39bf301ae00~.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -150,9 +150,9 @@
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
         </Node>
-        <Node ToolID="41">
+        <Node ToolID="42">
           <GuiSettings>
-            <Position x="1038" y="270" />
+            <Position x="1038" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -174,7 +174,7 @@ Target=Target
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxGuiToolkit.ControlContainer.ControlContainer">
-        <Position x="581" y="221" width="374" height="374" />
+        <Position x="569" y="221" width="386" height="374" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -193,7 +193,7 @@ Target=Target
       <ChildNodes>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="606" y="270" />
+            <Position x="594" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -213,7 +213,7 @@ Target=Target
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="834" y="270" />
+            <Position x="822" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -233,7 +233,7 @@ Target=Target
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="726" y="270" />
+            <Position x="714" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -356,7 +356,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="90" y="270" />
+            <Position x="89" y="270" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -393,7 +393,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="90" y="390" />
+            <Position x="90" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -483,7 +483,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="282" y="390" />
+            <Position x="282" y="450" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -555,7 +555,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="390" y="390" />
+            <Position x="390" y="450" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -591,7 +591,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="41" Connection="Output" />
+      <Origin ToolID="42" Connection="Output" />
       <Destination ToolID="36" Connection="Input" />
     </Connection>
     <Connection>
@@ -604,7 +604,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="41" Connection="Input" />
+      <Destination ToolID="42" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="28" Connection="Output" />
@@ -679,7 +679,7 @@ IF REGEX_Match([FilePath], ".+?\.xls.?\|\|\...</DefaultAnnotationText>
       <Author>Florian Carrier</Author>
       <Company>Alteryx</Company>
       <Copyright>2025</Copyright>
-      <DescriptionLink actual="" displayed="" />
+      <DescriptionLink actual="https://github.com/Akaizoku/alteryx-move-item" displayed="Alteryx Move Item Macro" />
       <Example>
         <Description />
         <File />
