@@ -10,12 +10,12 @@ if (-not (Test-Path -LiteralPath $Destination)) {
 
 # Move file
 try {
-    $Moved = Move-Item -LiteralPath $Source -Destination $Destination -PassThru -Force -ErrorAction "Stop"
+    $File = Move-Item -LiteralPath $Source -Destination $Destination -PassThru -Force -ErrorAction "Stop"
     $Entry = [PSCustomObject]@{
         "Timestamp" = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
         "Source"    = $Source
         "Status"    = "Moved"
-        "Target"    = $Moved.FullName
+        "Target"    = $File.FullName
     }
 }
 
