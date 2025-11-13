@@ -6,7 +6,7 @@ This repository provides a macro for [Alteryx Designer Desktop](https://www.alte
 
 A standard Alteryx Tool Installer (.YXI) file is provided. Upon executing the installer, the macro will be setup on the local machine and made available in Alteryx Designer Desktop under the "Developer" tool category.
 
-![Alteryx Tool Installer Window](Installation.png)
+![Alteryx Tool Installer Window](Resources/Installation.png)
 
 ## Usage
 
@@ -17,15 +17,13 @@ The macro requires a single input and provides two configuration parameters:
 1. Source: The full file path of the item to be moved. This can be a file of a directory.
 2. Target: The full file path of the destination where the item should be moved to. This must be a directory.
 
-![Alteryx Move Item Macro Configuration Menu](Configuration.png)
+![Alteryx Move Item Macro Configuration Menu](Resources/Configuration.png)
 
 ### Example
 
 Upon installation, an example workflow will be made available in Alteryx Designer Desktop under `Help > Sample Workflows > Macros > Move Item Example Workflow`.
 
-The sample workflow does generate two errors on purpose when executed to demonstrate how the macro handles errors when the source file does not exist.
-
-![Alteryx Move Item Example Workflow](Example.png)
+![Alteryx Move Item Example Workflow](Resources/Example.png)
 
 ## Dependencies
 
