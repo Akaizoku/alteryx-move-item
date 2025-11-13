@@ -5,4 +5,7 @@
 log.csv
 
 # Test output directory
-Output/
+**/Output/
+
+# YXI file
+*.yxi
